@@ -1,0 +1,15 @@
+{
+  "name": "Localhost2Phone",
+  "version": "1.0",
+  "description": "This app allows us to test our localhost page on phone. We just need to scan a QR code or write url on browser on phone and our phone and Computer should be connect through wifi whether its by phone,laptop or any router!",
+  "manifest_version": 2,
+  "icons": {
+    "16": "monitor16.png",
+    "64": "monitor64.png",
+    "128": "monitor128.png"
+  },
+  "permissions": ["tabs", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
