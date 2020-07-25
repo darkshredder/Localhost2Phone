@@ -84,6 +84,11 @@ async function renderURL(url) {
   console.log(final_url);
   document.getElementById("text").value = final_url;
   makeCode();
+  if (!port) {
+    $("#qrcode").hide();
+    $("#text").hide();
+    $("p").show();
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
